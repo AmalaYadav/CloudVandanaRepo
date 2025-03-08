@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .profile-card {
+            background: #fff;
+            width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .profile-card:hover {
+            transform: scale(1.05);
+        }
+
+        .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #333;
+        }
+
+        .profile-card h2 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .profile-card p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 5px;
+            color: #333;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="C:/Users/couldVandana_Projects/Simple_Profile_Card/WebDeveloper" alt="Profile Picture">
+        <h2>Ojja Amala</h2>
+        <p>Software Developer</p>
+        <p>A passionate Software developer who loves coding.</p>
+        <div class="social-icons">
+            <a href="#"><i>FB</i></a>
+            <a href="#"><i>TW</i></a>
+            <a href="#"><i>LN</i></a>
+			<a href="#"><i>IN</i></a>
+        </div>
+    </div>
+
+</body>
+</html>
